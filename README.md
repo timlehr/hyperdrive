@@ -81,6 +81,8 @@ To launch the Hyperdrive GUI, click _Hyperdrive - Manager_ in the main menu. Thi
 
 To temporarily bypass the cache after the setup, go to _Settings_ and check _Bypass_.
 
+![Hyperdrive Manager 1](http://timlehr.com/wp-content/uploads/2019/04/hd-manager-1.png)
+
 ## Build Developer Documentation
 
 ### Required Python packages
