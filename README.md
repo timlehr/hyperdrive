@@ -19,6 +19,8 @@ It's heavily inspired by the pose-based rig caching solution developed and prese
 
 Unlike common caching approaches available in DCC applications, this approach doesn't rely on time-based geometry caching. Instead it is utulizing the character rig animation values to calculate a unique pose ID, which points to a certain set of deformed character meshes stored in the cache. These poses are frame independent and can be re-used across different frame-ranges and even animation scenes.
 
+For further details on my different approaches to solve to pose-based caching in Maya, please check out my [Hyperdrive blog post](http://timlehr.com/?p=517).
+
 ## Build / Installation
 
 ### Requirements
@@ -126,6 +128,7 @@ To temporarily bypass the cache after the setup, go to _Settings_ and check _Byp
 - Draw Hyperdrive state text in viewport
 
 ## References
+- [Hyperdrive: My approach to pose-based rig caching in Maya](http://timlehr.com/?p=517)
 - ["Achieving Real-Time Playback with Production Rigs"](https://dl.acm.org/citation.cfm?id=2792519)
 - [Parallel Processing within a Host Application](http://www.multithreadingandvfx.org/course_notes/2017/disney_MultiThreading_SIGGRAPH2017.pdf)
 - [Using Parallel Maya 2018](http://download.autodesk.com/us/company/files/2018/UsingParallelMaya.pdf)

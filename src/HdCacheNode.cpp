@@ -324,7 +324,7 @@ std::shared_ptr<HdMeshSet> HdCacheNode::createCacheMeshData(MDataBlock& data, st
             int totalVertCount = inMesh.numVertices(&status);
 
             //CHECK_MSTATUS(inMesh.getNormals(normals));
-            // TODO: !!! NEEDS TO BE UNSHARED NORMALS FOR HARD EDGES -> FACEVERTEXNORMALS !!!
+            // TODO: NEEDS TO BE UNSHARED NORMALS FOR HARD EDGES -> FACEVERTEXNORMALS!
             //std::cout << "Normals: " << normals.length() << endl;
 
             HdMeshData meshData(totalVertCount, totalPolyCount);

@@ -179,7 +179,7 @@ bool HdPoseNode::cachesContainPoseId(MDataBlock& data, std::string poseIdHash, M
     if(connectedPlugs > 0)
     {
         status = MS::kSuccess;
-        return true; // TODO: Check if this is really always correct!
+        return true; // TODO: Check if this is really always the correct behaviour!
     } else 
     {
         log->warn("No cache IDs connected to Hyperdrive cache nodes.");
@@ -419,7 +419,7 @@ MStatus HdPoseNode::initialize()
     nAttr.setStorable(true);
     nAttr.setReadable(false); // disable output
     nAttr.setArray(true);
-    nAttr.setIndexMatters(false); // TODO: REMOVE THIS !!! JUST FOR DEBUGGING SO THAT connectAttr WITH NextAvailable WORKS !!!
+    nAttr.setIndexMatters(false); // TODO: Remove this. Hotfix so that 'connectAttr' works with 'NextAvailable'!
     addAttribute(aInCtrlVals);
     attributeAffects(aInCtrlVals, aOutPoseId);
     attributeAffects(aInCtrlVals, aOutFreezeRig);
