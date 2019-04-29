@@ -1,5 +1,7 @@
 # Hyperdrive
-## Pose based rig caching for Maya
+***Pose based rig caching for Maya***
+
+---
 
 :hammer: **Experimental: This is a R&D project and not yet production ready**
 
