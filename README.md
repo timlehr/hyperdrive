@@ -148,6 +148,8 @@ This project is relying on some awesome open source code to work.
 ```
 MIT License
 
+Written by Tim Lehr
+
 Copyright (c) 2019 Animationsinstitut of Filmakademie Baden-Wuerttemberg
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
