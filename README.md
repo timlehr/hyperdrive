@@ -1,6 +1,8 @@
 # Hyperdrive
 ***Pose based rig caching for Maya***
 
+![Hyperdrive Header](http://timlehr.com/wp-content/uploads/2019/04/hd-header-mockup.png)
+
 ---
 
 :hammer: **Experimental: This is a R&D project and not yet production ready**
