@@ -1,5 +1,7 @@
 MIT License
 
+Written by Tim Lehr
+
 Copyright (c) 2019 Animationsinstitut of Filmakademie Baden-Wuerttemberg
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
